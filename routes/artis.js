@@ -8,6 +8,6 @@ router.post('/', ArtisController.createNewArtis)
 router.get('/', ArtisController.getAllArtis)
 router.get('/:id', ArtisController.getArtisbyID)
 router.put('/:id', ArtisController.updateArtisbyID)
-router.delete('/id', ArtisController.deleteArtisbyID)
+router.delete('/:id', ArtisController.deleteArtisbyID)
 
 module.exports = router
